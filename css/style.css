@@ -1,0 +1,55 @@
+@charset 'utf-8';
+.box{
+	width:1200px;
+	border:1px solid #eeeeee;
+	margin:50px auto 0;
+	cursor:url('../images/Norm_Ice.cur'),pointer;
+}
+.header{
+	width:700px;
+	margin:40px auto;
+}
+ul{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style:none;
+	float:left;
+	padding:0px 20px;
+	border-right:1px solid #eeeeee;
+	font-size:14px;
+}
+a{
+	text-decoration:none;
+	color:inherit;
+	cursor:url('../images/Norm_Ice.cur'),pointer;
+}
+i{
+	display:block;
+}
+.margin{
+	border-right:1px solid #eeeeee;
+	margin:0;
+	padding:0;
+}
+.float{
+	float:left;
+}
+.clearSolid{
+	border-right:1px solid transparent;
+}
+.top{
+	border-top:1px solid #eeeeee;
+}
+.left{
+	border-left:1px solid #eeeeee;
+}
+.floatFix::after{
+	content:'';
+	display:block;
+	clear:both;
+}
+li:hover a{
+	color:red;
+}
